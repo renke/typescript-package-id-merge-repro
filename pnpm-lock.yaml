@@ -1,0 +1,69 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers:
+      '@renke/vommer': ^0.2.0
+      immer: ^9.0.12
+      typescript: ^4.6.0-beta
+      zod: ^3.11.6
+    dependencies:
+      '@renke/vommer': 0.2.0_immer@9.0.12
+      immer: 9.0.12
+      zod: 3.11.6
+    devDependencies:
+      typescript: 4.6.0-beta
+
+  problem:
+    specifiers:
+      '@renke/vommer': ^0.2.0
+      immer: ^9.0.12
+      typescript: ^4.6.0-beta
+      zod: ^3.11.6
+    dependencies:
+      '@renke/vommer': 0.2.0_immer@9.0.12
+      immer: 9.0.12
+      zod: 3.11.6
+    devDependencies:
+      typescript: 4.6.0-beta
+
+packages:
+
+  /@renke/vo/0.2.0:
+    resolution: {integrity: sha512-O7QVvACMzX+RcYPdpOZFdE6WIU70ToIfHUusc7iE0JucTDAhexTJr5O0f9fjAvI6Tv7+dKRW1W8QhJnW/vejaA==}
+    dev: false
+
+  /@renke/vod/0.2.0_zod@3.11.6:
+    resolution: {integrity: sha512-33ZlRZtHzYe3pR+ZxePL0sAP35EGQoT08avXuZg3Sa3Zdk3FyMCcwEmV9QOXozpen+FIU/OAKTWiRTOKXDB8kQ==}
+    peerDependencies:
+      zod: ^3.11.6
+    dependencies:
+      '@renke/vo': 0.2.0
+      zod: 3.11.6
+    dev: false
+
+  /@renke/vommer/0.2.0_immer@9.0.12:
+    resolution: {integrity: sha512-lDveA3L0YoO0zo0+DalzKtfNlZFhgn6AhGVbhqLr96RPCjDtEVHN9sNRg1lHeEULSo7tVSy7CQYgu+rjJoXkcg==}
+    peerDependencies:
+      immer: ^9.0.5
+    dependencies:
+      '@renke/vo': 0.2.0
+      '@renke/vod': 0.2.0_zod@3.11.6
+      immer: 9.0.12
+      zod: 3.11.6
+    dev: false
+
+  /immer/9.0.12:
+    resolution: {integrity: sha512-lk7UNmSbAukB5B6dh9fnh5D0bJTOFKxVg2cyJWTYrWRfhLrLMBquONcUs3aFq507hNoIZEDDh8lb8UtOizSMhA==}
+    dev: false
+
+  /typescript/4.6.0-beta:
+    resolution: {integrity: sha512-xg5avH08DioTdxex568HFLHvnHWxGzpu9FK0ehLNwlqzx/kjy5/qEkBmkbPlvC9xs45bc7gbAbEhNqtczJsHAg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /zod/3.11.6:
+    resolution: {integrity: sha512-daZ80A81I3/9lIydI44motWe6n59kRBfNzTuS2bfzVh1nAXi667TOTWWtatxyG+fwgNUiagSj/CWZwRRbevJIg==}
+    dev: false

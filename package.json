@@ -1,0 +1,19 @@
+{
+  "name": "typescript-package-id-merge-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.0-beta"
+  },
+  "dependencies": {
+    "@renke/vommer": "^0.2.0",
+    "immer": "^9.0.12",
+    "zod": "^3.11.6"
+  }
+}
